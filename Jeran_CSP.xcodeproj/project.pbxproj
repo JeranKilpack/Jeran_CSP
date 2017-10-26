@@ -54,14 +54,38 @@
 		976963A51FA21F9000CBFE12 /* Jeran_CSP */ = {
 			isa = PBXGroup;
 			children = (
-				976963A61FA21F9000CBFE12 /* AppDelegate.swift */,
-				976963A81FA21F9000CBFE12 /* ViewController.swift */,
-				976963AA1FA21F9000CBFE12 /* Main.storyboard */,
-				976963AD1FA21F9000CBFE12 /* Assets.xcassets */,
-				976963AF1FA21F9000CBFE12 /* LaunchScreen.storyboard */,
-				976963B21FA21F9000CBFE12 /* Info.plist */,
+				976963BB1FA21FE400CBFE12 /* Runner */,
+				976963B81FA21FB100CBFE12 /* Controller */,
+				976963B91FA21FCA00CBFE12 /* Resources */,
 			);
 			path = Jeran_CSP;
+			sourceTree = "<group>";
+		};
+		976963B81FA21FB100CBFE12 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				976963A81FA21F9000CBFE12 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		976963B91FA21FCA00CBFE12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				976963AD1FA21F9000CBFE12 /* Assets.xcassets */,
+				976963B21FA21F9000CBFE12 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		976963BB1FA21FE400CBFE12 /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				976963A61FA21F9000CBFE12 /* AppDelegate.swift */,
+				976963AF1FA21F9000CBFE12 /* LaunchScreen.storyboard */,
+				976963AA1FA21F9000CBFE12 /* Main.storyboard */,
+			);
+			path = Runner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
