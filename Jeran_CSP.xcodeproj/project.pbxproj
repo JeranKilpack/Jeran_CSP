@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		972263CC1FB35DA700842890 /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972263CB1FB35DA700842890 /* AlgorithmsViewController.swift */; };
+		9744CAA71FCF000D00F0AFD6 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9744CAA61FCF000D00F0AFD6 /* InternetMasterViewController.swift */; };
+		9744CAA91FCF05B600F0AFD6 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9744CAA81FCF05B600F0AFD6 /* InternetDetailViewController.swift */; };
+		9744CAAC1FCF0B2D00F0AFD6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9744CAAB1FCF0B2D00F0AFD6 /* WebKit.framework */; };
+		97495E111FCC5A210034B8A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97495E101FCC5A210034B8A9 /* Default-568h@2x.png */; };
+		97495E131FCC607A0034B8A9 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97495E121FCC607A0034B8A9 /* AbstractionViewController.swift */; };
 		976963A71FA21F9000CBFE12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976963A61FA21F9000CBFE12 /* AppDelegate.swift */; };
 		976963A91FA21F9000CBFE12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976963A81FA21F9000CBFE12 /* ViewController.swift */; };
 		976963AC1FA21F9000CBFE12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976963AA1FA21F9000CBFE12 /* Main.storyboard */; };
 		976963AE1FA21F9000CBFE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 976963AD1FA21F9000CBFE12 /* Assets.xcassets */; };
 		976963B11FA21F9000CBFE12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976963AF1FA21F9000CBFE12 /* LaunchScreen.storyboard */; };
+		97B616B61FC32A120031E1AF /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B616B51FC32A120031E1AF /* Protocol.swift */; };
+		97B616B81FC32CBB0031E1AF /* TouchClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B616B71FC32CBB0031E1AF /* TouchClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		972263CB1FB35DA700842890 /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
+		9744CAA61FCF000D00F0AFD6 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
+		9744CAA81FCF05B600F0AFD6 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		9744CAAB1FCF0B2D00F0AFD6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		97495E101FCC5A210034B8A9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		97495E121FCC607A0034B8A9 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
 		976963A31FA21F9000CBFE12 /* Jeran_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jeran_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		976963A61FA21F9000CBFE12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		976963A81FA21F9000CBFE12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,8 @@
 		976963AD1FA21F9000CBFE12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		976963B01FA21F9000CBFE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		976963B21FA21F9000CBFE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97B616B51FC32A120031E1AF /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		97B616B71FC32CBB0031E1AF /* TouchClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9744CAAC1FCF0B2D00F0AFD6 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9744CAAA1FCF0B2D00F0AFD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9744CAAB1FCF0B2D00F0AFD6 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9769639A1FA21F9000CBFE12 = {
 			isa = PBXGroup;
 			children = (
+				97495E101FCC5A210034B8A9 /* Default-568h@2x.png */,
 				976963A51FA21F9000CBFE12 /* Jeran_CSP */,
 				976963A41FA21F9000CBFE12 /* Products */,
+				9744CAAA1FCF0B2D00F0AFD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +81,9 @@
 		976963A51FA21F9000CBFE12 /* Jeran_CSP */ = {
 			isa = PBXGroup;
 			children = (
-				976963BB1FA21FE400CBFE12 /* Runner */,
+				97B616B41FC329CC0031E1AF /* Model */,
 				976963B81FA21FB100CBFE12 /* Controller */,
+				976963BB1FA21FE400CBFE12 /* Runner */,
 				976963B91FA21FCA00CBFE12 /* Resources */,
 			);
 			path = Jeran_CSP;
@@ -64,7 +92,12 @@
 		976963B81FA21FB100CBFE12 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				976963A61FA21F9000CBFE12 /* AppDelegate.swift */,
 				976963A81FA21F9000CBFE12 /* ViewController.swift */,
+				972263CB1FB35DA700842890 /* AlgorithmsViewController.swift */,
+				97495E121FCC607A0034B8A9 /* AbstractionViewController.swift */,
+				9744CAA81FCF05B600F0AFD6 /* InternetDetailViewController.swift */,
+				9744CAA61FCF000D00F0AFD6 /* InternetMasterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -81,11 +114,19 @@
 		976963BB1FA21FE400CBFE12 /* Runner */ = {
 			isa = PBXGroup;
 			children = (
-				976963A61FA21F9000CBFE12 /* AppDelegate.swift */,
 				976963AF1FA21F9000CBFE12 /* LaunchScreen.storyboard */,
 				976963AA1FA21F9000CBFE12 /* Main.storyboard */,
 			);
 			path = Runner;
+			sourceTree = "<group>";
+		};
+		97B616B41FC329CC0031E1AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				97B616B51FC32A120031E1AF /* Protocol.swift */,
+				97B616B71FC32CBB0031E1AF /* TouchClass.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				976963B11FA21F9000CBFE12 /* LaunchScreen.storyboard in Resources */,
+				97495E111FCC5A210034B8A9 /* Default-568h@2x.png in Resources */,
 				976963AE1FA21F9000CBFE12 /* Assets.xcassets in Resources */,
 				976963AC1FA21F9000CBFE12 /* Main.storyboard in Resources */,
 			);
@@ -160,8 +202,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9744CAA91FCF05B600F0AFD6 /* InternetDetailViewController.swift in Sources */,
 				976963A91FA21F9000CBFE12 /* ViewController.swift in Sources */,
+				972263CC1FB35DA700842890 /* AlgorithmsViewController.swift in Sources */,
 				976963A71FA21F9000CBFE12 /* AppDelegate.swift in Sources */,
+				97495E131FCC607A0034B8A9 /* AbstractionViewController.swift in Sources */,
+				97B616B61FC32A120031E1AF /* Protocol.swift in Sources */,
+				9744CAA71FCF000D00F0AFD6 /* InternetMasterViewController.swift in Sources */,
+				97B616B81FC32CBB0031E1AF /* TouchClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
