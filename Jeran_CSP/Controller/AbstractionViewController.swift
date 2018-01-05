@@ -43,7 +43,7 @@ public class AbstractionViewController: UIPageViewController, UIPageViewControll
     }
 
     //MARK:- Required Protocol methods for UIPageViewControllerDatasource
-    public func pageViewController(_ pageViewController: UIPageViewConroller, viewControllerBefore viewController: UIViewController) -> UIViewController?
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController?
     {
         guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
         else

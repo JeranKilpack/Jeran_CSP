@@ -7,37 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9714F0681FE9688200B6DEB1 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9714F0671FE9688200B6DEB1 /* DeathScene.swift */; };
+		97205B911FD6F0E20060BEB3 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97205B901FD6F0E20060BEB3 /* DrawingView.swift */; };
 		972263CC1FB35DA700842890 /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972263CB1FB35DA700842890 /* AlgorithmsViewController.swift */; };
 		9744CAA71FCF000D00F0AFD6 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9744CAA61FCF000D00F0AFD6 /* InternetMasterViewController.swift */; };
 		9744CAA91FCF05B600F0AFD6 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9744CAA81FCF05B600F0AFD6 /* InternetDetailViewController.swift */; };
 		9744CAAC1FCF0B2D00F0AFD6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9744CAAB1FCF0B2D00F0AFD6 /* WebKit.framework */; };
 		97495E111FCC5A210034B8A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97495E101FCC5A210034B8A9 /* Default-568h@2x.png */; };
 		97495E131FCC607A0034B8A9 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97495E121FCC607A0034B8A9 /* AbstractionViewController.swift */; };
+		974A76931FE176C900256DDD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A76921FE176C900256DDD /* Utilities.swift */; };
+		974A76951FE1772B00256DDD /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 974A76941FE1772B00256DDD /* StarField.sks */; };
+		974A76991FE17FE900256DDD /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A76981FE17FE900256DDD /* ProgrammingViewController.swift */; };
+		974A769B1FE181EE00256DDD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A769A1FE181EE00256DDD /* GameScene.swift */; };
+		974A769D1FE181EF00256DDD /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A769C1FE181EF00256DDD /* LevelCompleteScene.swift */; };
+		974A769F1FE181F000256DDD /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A769E1FE181F000256DDD /* StartScene.swift */; };
+		974A76A91FE1829F00256DDD /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A76A21FE1829E00256DDD /* Projectile.swift */; };
+		974A76AA1FE1829F00256DDD /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A76A31FE1829E00256DDD /* Invader.swift */; };
+		974A76AB1FE1829F00256DDD /* Helicopter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A76A41FE1829E00256DDD /* Helicopter.swift */; };
+		974A76AC1FE1829F00256DDD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A76A51FE1829E00256DDD /* Player.swift */; };
+		974A76AD1FE1829F00256DDD /* InvaderBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A76A61FE1829E00256DDD /* InvaderBullet.swift */; };
+		974A76AE1FE1829F00256DDD /* PlayerBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A76A71FE1829E00256DDD /* PlayerBullet.swift */; };
+		974A76AF1FE1829F00256DDD /* Flyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A76A81FE1829F00256DDD /* Flyable.swift */; };
 		976963A71FA21F9000CBFE12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976963A61FA21F9000CBFE12 /* AppDelegate.swift */; };
 		976963A91FA21F9000CBFE12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976963A81FA21F9000CBFE12 /* ViewController.swift */; };
 		976963AC1FA21F9000CBFE12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976963AA1FA21F9000CBFE12 /* Main.storyboard */; };
 		976963AE1FA21F9000CBFE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 976963AD1FA21F9000CBFE12 /* Assets.xcassets */; };
-		976963B11FA21F9000CBFE12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976963AF1FA21F9000CBFE12 /* LaunchScreen.storyboard */; };
-		97B616B61FC32A120031E1AF /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B616B51FC32A120031E1AF /* Protocol.swift */; };
-		97B616B81FC32CBB0031E1AF /* TouchClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B616B71FC32CBB0031E1AF /* TouchClass.swift */; };
+		97BF71F41FD98C0A003553E6 /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BF71F31FD98C0A003553E6 /* CreativityViewController.swift */; };
+		97BF71F61FD99C5C003553E6 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BF71F51FD99C5C003553E6 /* ArtCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9714F0671FE9688200B6DEB1 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
+		97205B901FD6F0E20060BEB3 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		972263CB1FB35DA700842890 /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		9744CAA61FCF000D00F0AFD6 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		9744CAA81FCF05B600F0AFD6 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		9744CAAB1FCF0B2D00F0AFD6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		97495E101FCC5A210034B8A9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		97495E121FCC607A0034B8A9 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
+		974A76921FE176C900256DDD /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = Jeran_CSP/Utilities.swift; sourceTree = SOURCE_ROOT; };
+		974A76941FE1772B00256DDD /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
+		974A76981FE17FE900256DDD /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
+		974A769A1FE181EE00256DDD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		974A769C1FE181EF00256DDD /* LevelCompleteScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
+		974A769E1FE181F000256DDD /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		974A76A21FE1829E00256DDD /* Projectile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
+		974A76A31FE1829E00256DDD /* Invader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
+		974A76A41FE1829E00256DDD /* Helicopter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helicopter.swift; sourceTree = "<group>"; };
+		974A76A51FE1829E00256DDD /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		974A76A61FE1829E00256DDD /* InvaderBullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvaderBullet.swift; sourceTree = "<group>"; };
+		974A76A71FE1829E00256DDD /* PlayerBullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBullet.swift; sourceTree = "<group>"; };
+		974A76A81FE1829F00256DDD /* Flyable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyable.swift; sourceTree = "<group>"; };
+		974A76B11FE182E300256DDD /* laser sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laser sound.mp3"; sourceTree = "<group>"; };
+		974A76B21FE182E300256DDD /* invader sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "invader sound.mp3"; sourceTree = "<group>"; };
+		974A76B31FE182E300256DDD /* boss sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "boss sound.mp3"; sourceTree = "<group>"; };
+		974A76B41FE182E400256DDD /* powerup sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "powerup sound.mp3"; sourceTree = "<group>"; };
+		974A76B51FE182E400256DDD /* extra sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "extra sound.mp3"; sourceTree = "<group>"; };
 		976963A31FA21F9000CBFE12 /* Jeran_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jeran_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		976963A61FA21F9000CBFE12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		976963A81FA21F9000CBFE12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		976963AB1FA21F9000CBFE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		976963AD1FA21F9000CBFE12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		976963B01FA21F9000CBFE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		976963B21FA21F9000CBFE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97B616B51FC32A120031E1AF /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
-		97B616B71FC32CBB0031E1AF /* TouchClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchClass.swift; sourceTree = "<group>"; };
+		97BF71F31FD98C0A003553E6 /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
+		97BF71F51FD99C5C003553E6 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,45 @@
 				9744CAAB1FCF0B2D00F0AFD6 /* WebKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		974A76A11FE1823B00256DDD /* GameController */ = {
+			isa = PBXGroup;
+			children = (
+				974A769A1FE181EE00256DDD /* GameScene.swift */,
+				974A769C1FE181EF00256DDD /* LevelCompleteScene.swift */,
+				974A769E1FE181F000256DDD /* StartScene.swift */,
+				9714F0671FE9688200B6DEB1 /* DeathScene.swift */,
+			);
+			path = GameController;
+			sourceTree = "<group>";
+		};
+		974A76B01FE182A800256DDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				974A76A81FE1829F00256DDD /* Flyable.swift */,
+				974A76A41FE1829E00256DDD /* Helicopter.swift */,
+				974A76A31FE1829E00256DDD /* Invader.swift */,
+				974A76A61FE1829E00256DDD /* InvaderBullet.swift */,
+				974A76A51FE1829E00256DDD /* Player.swift */,
+				974A76A71FE1829E00256DDD /* PlayerBullet.swift */,
+				974A76A21FE1829E00256DDD /* Projectile.swift */,
+			);
+			name = Model;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		974A76B61FE182F300256DDD /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				974A76B31FE182E300256DDD /* boss sound.mp3 */,
+				974A76B51FE182E400256DDD /* extra sound.mp3 */,
+				974A76B21FE182E300256DDD /* invader sound.mp3 */,
+				974A76B11FE182E300256DDD /* laser sound.mp3 */,
+				974A76B41FE182E400256DDD /* powerup sound.mp3 */,
+			);
+			name = sounds;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		9769639A1FA21F9000CBFE12 = {
@@ -81,7 +153,7 @@
 		976963A51FA21F9000CBFE12 /* Jeran_CSP */ = {
 			isa = PBXGroup;
 			children = (
-				97B616B41FC329CC0031E1AF /* Model */,
+				974A76B01FE182A800256DDD /* Model */,
 				976963B81FA21FB100CBFE12 /* Controller */,
 				976963BB1FA21FE400CBFE12 /* Runner */,
 				976963B91FA21FCA00CBFE12 /* Resources */,
@@ -92,12 +164,16 @@
 		976963B81FA21FB100CBFE12 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				974A76A11FE1823B00256DDD /* GameController */,
 				976963A61FA21F9000CBFE12 /* AppDelegate.swift */,
+				97BF71F51FD99C5C003553E6 /* ArtCell.swift */,
 				976963A81FA21F9000CBFE12 /* ViewController.swift */,
 				972263CB1FB35DA700842890 /* AlgorithmsViewController.swift */,
 				97495E121FCC607A0034B8A9 /* AbstractionViewController.swift */,
 				9744CAA81FCF05B600F0AFD6 /* InternetDetailViewController.swift */,
 				9744CAA61FCF000D00F0AFD6 /* InternetMasterViewController.swift */,
+				97BF71F31FD98C0A003553E6 /* CreativityViewController.swift */,
+				974A76981FE17FE900256DDD /* ProgrammingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -105,6 +181,8 @@
 		976963B91FA21FCA00CBFE12 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				974A76921FE176C900256DDD /* Utilities.swift */,
+				974A76B61FE182F300256DDD /* sounds */,
 				976963AD1FA21F9000CBFE12 /* Assets.xcassets */,
 				976963B21FA21F9000CBFE12 /* Info.plist */,
 			);
@@ -114,19 +192,11 @@
 		976963BB1FA21FE400CBFE12 /* Runner */ = {
 			isa = PBXGroup;
 			children = (
-				976963AF1FA21F9000CBFE12 /* LaunchScreen.storyboard */,
+				974A76941FE1772B00256DDD /* StarField.sks */,
 				976963AA1FA21F9000CBFE12 /* Main.storyboard */,
+				97205B901FD6F0E20060BEB3 /* DrawingView.swift */,
 			);
 			path = Runner;
-			sourceTree = "<group>";
-		};
-		97B616B41FC329CC0031E1AF /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				97B616B51FC32A120031E1AF /* Protocol.swift */,
-				97B616B71FC32CBB0031E1AF /* TouchClass.swift */,
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				976963B11FA21F9000CBFE12 /* LaunchScreen.storyboard in Resources */,
+				974A76951FE1772B00256DDD /* StarField.sks in Resources */,
 				97495E111FCC5A210034B8A9 /* Default-568h@2x.png in Resources */,
 				976963AE1FA21F9000CBFE12 /* Assets.xcassets in Resources */,
 				976963AC1FA21F9000CBFE12 /* Main.storyboard in Resources */,
@@ -202,14 +272,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				974A76A91FE1829F00256DDD /* Projectile.swift in Sources */,
+				974A76AA1FE1829F00256DDD /* Invader.swift in Sources */,
+				97BF71F41FD98C0A003553E6 /* CreativityViewController.swift in Sources */,
+				974A769F1FE181F000256DDD /* StartScene.swift in Sources */,
+				974A76AF1FE1829F00256DDD /* Flyable.swift in Sources */,
+				97BF71F61FD99C5C003553E6 /* ArtCell.swift in Sources */,
+				974A76991FE17FE900256DDD /* ProgrammingViewController.swift in Sources */,
 				9744CAA91FCF05B600F0AFD6 /* InternetDetailViewController.swift in Sources */,
+				974A76AB1FE1829F00256DDD /* Helicopter.swift in Sources */,
+				974A76AE1FE1829F00256DDD /* PlayerBullet.swift in Sources */,
 				976963A91FA21F9000CBFE12 /* ViewController.swift in Sources */,
+				974A76AD1FE1829F00256DDD /* InvaderBullet.swift in Sources */,
 				972263CC1FB35DA700842890 /* AlgorithmsViewController.swift in Sources */,
+				974A769B1FE181EE00256DDD /* GameScene.swift in Sources */,
+				974A76931FE176C900256DDD /* Utilities.swift in Sources */,
 				976963A71FA21F9000CBFE12 /* AppDelegate.swift in Sources */,
+				974A769D1FE181EF00256DDD /* LevelCompleteScene.swift in Sources */,
 				97495E131FCC607A0034B8A9 /* AbstractionViewController.swift in Sources */,
-				97B616B61FC32A120031E1AF /* Protocol.swift in Sources */,
+				97205B911FD6F0E20060BEB3 /* DrawingView.swift in Sources */,
+				9714F0681FE9688200B6DEB1 /* DeathScene.swift in Sources */,
+				974A76AC1FE1829F00256DDD /* Player.swift in Sources */,
 				9744CAA71FCF000D00F0AFD6 /* InternetMasterViewController.swift in Sources */,
-				97B616B81FC32CBB0031E1AF /* TouchClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,14 +306,6 @@
 				976963AB1FA21F9000CBFE12 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		976963AF1FA21F9000CBFE12 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				976963B01FA21F9000CBFE12 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,7 +423,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Jeran_CSP/Info.plist;
+				DEVELOPMENT_TEAM = X77K8LBKTS;
+				INFOPLIST_FILE = "$(SRCROOT)/Jeran_CSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.Jeran-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,7 +438,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Jeran_CSP/Info.plist;
+				DEVELOPMENT_TEAM = X77K8LBKTS;
+				INFOPLIST_FILE = "$(SRCROOT)/Jeran_CSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.Jeran-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
